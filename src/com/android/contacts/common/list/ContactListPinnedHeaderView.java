@@ -61,7 +61,7 @@ public class ContactListPinnedHeaderView extends ViewGroup {
         mHeaderTextIndent = a.getDimensionPixelOffset(
                 R.styleable.ContactListItemView_list_item_header_text_indent, 0);
         mHeaderTextColor = a.getColor(
-                R.styleable.ContactListItemView_list_item_header_text_color, Color.BLACK);
+                R.styleable.ContactListItemView_list_item_header_text_color, Color.WHITE);
         mHeaderTextSize = a.getDimensionPixelSize(
                 R.styleable.ContactListItemView_list_item_header_text_size, 12);
         mHeaderUnderlineHeight = a.getDimensionPixelSize(
@@ -75,7 +75,7 @@ public class ContactListPinnedHeaderView extends ViewGroup {
         mPaddingRight = a.getDimensionPixelOffset(
                 R.styleable.ContactListItemView_list_item_padding_right, 0);
         mContactsCountTextColor = a.getColor(
-                R.styleable.ContactListItemView_list_item_contacts_count_text_color, Color.BLACK);
+                R.styleable.ContactListItemView_list_item_contacts_count_text_color, Color.WHITE);
         mCountViewTextSize = (int)a.getDimensionPixelSize(
                 R.styleable.ContactListItemView_list_item_contacts_count_text_size, 12);
 

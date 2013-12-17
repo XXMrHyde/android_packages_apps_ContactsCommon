@@ -84,13 +84,13 @@ public class ContactListItemView extends ViewGroup
     private int mGapBetweenLabelAndData = 0;
     private int mPresenceIconMargin = 4;
     private int mPresenceIconSize = 16;
-    private int mHeaderTextColor = Color.BLACK;
+    private int mHeaderTextColor = Color.WHITE;
     private int mHeaderTextIndent = 0;
     private int mHeaderTextSize = 12;
     private int mHeaderUnderlineHeight = 1;
     private int mHeaderUnderlineColor = 0;
     private int mCountViewTextSize = 12;
-    private int mContactsCountTextColor = Color.BLACK;
+    private int mContactsCountTextColor = Color.WHITE;
     private int mTextIndent = 0;
     private Drawable mActivatedBackgroundDrawable;
 

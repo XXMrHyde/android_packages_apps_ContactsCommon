@@ -97,11 +97,11 @@ public class ContactListFilterView extends LinearLayout {
                 break;
             }
             case ContactListFilter.FILTER_TYPE_STARRED: {
-                bindView(R.drawable.ic_menu_star_holo_light, R.string.list_filter_all_starred);
+                bindView(R.drawable.ic_menu_star_holo_dark, R.string.list_filter_all_starred);
                 break;
             }
             case ContactListFilter.FILTER_TYPE_CUSTOM: {
-                bindView(R.drawable.ic_menu_settings_holo_light, R.string.list_filter_customize);
+                bindView(R.drawable.ic_menu_settings_holo_dark, R.string.list_filter_customize);
                 break;
             }
             case ContactListFilter.FILTER_TYPE_WITH_PHONE_NUMBERS_ONLY: {
