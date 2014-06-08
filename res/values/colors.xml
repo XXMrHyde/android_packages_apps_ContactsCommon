@@ -17,25 +17,25 @@
 <resources>
 
     <!-- Divider color for header separator -->
-    <color name="primary_text_color">#363636</color>
+    <color name="primary_text_color">#C9C9C9</color>
 
     <!-- Divider color for header separator -->
-    <color name="secondary_text_color">#888888</color>
+    <color name="secondary_text_color">#777777</color>
 
     <!-- Divider color for header separator -->
-    <color name="main_header_separator_color">#AAAAAA</color>
+    <color name="main_header_separator_color">#555555</color>
 
     <!-- Divider color for header separator -->
-    <color name="secondary_header_separator_color">#D0D0D0</color>
+    <color name="secondary_header_separator_color">#2F2F2F</color>
 
     <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">#363636</color>
+    <color name="people_app_theme_color">#C9C9C9</color>
 
     <!-- Color of image view placeholder. -->
-    <color name="image_placeholder">#DDDDDD</color>
+    <color name="image_placeholder">#222222</color>
 
     <!-- Secondary text color in the Phone app -->
-    <color name="dialtacts_secondary_text_color">#888888</color>
+    <color name="dialtacts_secondary_text_color">#777777</color>
 
     <!--  Color of the semi-transparent shadow box on contact tiles -->
     <color name="contact_tile_shadow_box_color">#7F000000</color>
@@ -60,7 +60,7 @@
         <item>#ae6b23</item>
         <item>#e5ae4f</item>
     </array>
-    <color name="letter_tile_default_color">#cccccc</color>
+    <color name="letter_tile_default_color">#333333</color>
 
     <color name="letter_tile_font_color">#ffffff</color>
 </resources>
