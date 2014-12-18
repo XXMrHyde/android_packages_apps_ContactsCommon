@@ -609,7 +609,7 @@ public class ImportVCardActivity extends Activity {
                 if (mProgressDialogForCachingVCard == null) {
                     final String title = getString(R.string.caching_vcard_title);
                     final String message = getString(R.string.caching_vcard_message);
-                    mProgressDialogForCachingVCard = new ProgressDialog(this);
+                    mProgressDialogForCachingVCard = new ProgressDialog(this, R.style.ContactsAlertDialogTheme);
                     mProgressDialogForCachingVCard.setTitle(title);
                     mProgressDialogForCachingVCard.setMessage(message);
                     mProgressDialogForCachingVCard.setProgressStyle(ProgressDialog.STYLE_SPINNER);
@@ -624,7 +624,7 @@ public class ImportVCardActivity extends Activity {
                     Log.e(LOG_TAG, "Error message is null while it must not.");
                     message = getString(R.string.fail_reason_unknown);
                 }
-                final AlertDialog.Builder builder = new AlertDialog.Builder(this)
+                final AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.ContactsAlertDialogTheme)
                     .setTitle(getString(R.string.reading_vcard_failed_title))
                     .setIconAttribute(android.R.attr.alertDialogIcon)
                     .setMessage(message)

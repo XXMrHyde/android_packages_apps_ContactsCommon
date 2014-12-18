@@ -151,7 +151,7 @@ public class ExportVCardActivity extends Activity implements ServiceConnection,
         switch (id) {
             case R.string.fail_reason_too_many_vcard: {
                 mProcessOngoing = false;
-                return new AlertDialog.Builder(this)
+                return new AlertDialog.Builder(this, R.style.ContactsAlertDialogTheme)
                         .setTitle(R.string.exporting_contact_failed_title)
                         .setMessage(getString(R.string.exporting_contact_failed_message,
                                 getString(R.string.fail_reason_too_many_vcard)))
@@ -160,7 +160,7 @@ public class ExportVCardActivity extends Activity implements ServiceConnection,
             }
             case R.id.dialog_fail_to_export_with_reason: {
                 mProcessOngoing = false;
-                return new AlertDialog.Builder(this)
+                return new AlertDialog.Builder(this, R.style.ContactsAlertDialogTheme)
                         .setTitle(R.string.exporting_contact_failed_title)
                         .setMessage(getString(R.string.exporting_contact_failed_message,
                                 mErrorReason != null ? mErrorReason :
